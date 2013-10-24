@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FAC0486AB0100D96B5E /* calibrateheston.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* calibrateheston.cpp */; settings = {ATTRIBUTES = (); }; };
+		C854412812DA691800E77EDB /* load_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C854412712DA691800E77EDB /* load_data.cpp */; };
+		C854412912DA691800E77EDB /* load_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C854412712DA691800E77EDB /* load_data.cpp */; };
+		C854413612DA6A1C00E77EDB /* load_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C854412712DA691800E77EDB /* load_data.cpp */; };
+		C88FDF6912554C7F00AB4703 /* kiko.c in Sources */ = {isa = PBXBuildFile; fileRef = C88FDF6812554C7F00AB4703 /* kiko.c */; };
+		C88FDF6A12554CDD00AB4703 /* cndev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89C0B211254763F00BEDF2C /* cndev.cpp */; };
+		C88FDF6B12554CDD00AB4703 /* ranmar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89C0B231254763F00BEDF2C /* ranmar.cpp */; };
+		C88FDFAA12555DAA00AB4703 /* cndev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89C0B211254763F00BEDF2C /* cndev.cpp */; };
+		C893865B124EC33B00FBB1D7 /* gcomplex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C893865A124EC33B00FBB1D7 /* gcomplex.cpp */; };
+		C89C0B20125475E700BEDF2C /* vanilla.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89C0B1F125475E700BEDF2C /* vanilla.cpp */; };
+		C89C0B251254763F00BEDF2C /* cndev.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89C0B211254763F00BEDF2C /* cndev.cpp */; };
+		C89C0B261254763F00BEDF2C /* ranmar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C89C0B231254763F00BEDF2C /* ranmar.cpp */; };
+		C8B29BDD12574EEE00227360 /* testga.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8B29BDC12574EEE00227360 /* testga.cpp */; };
+		C8B29C4A125760C500227360 /* heston.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8B29C49125760C500227360 /* heston.cpp */; };
+		C8B29C4B125760C500227360 /* heston.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8B29C49125760C500227360 /* heston.cpp */; };
+		C8B29C6512577F7900227360 /* gcomplex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C893865A124EC33B00FBB1D7 /* gcomplex.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* calibrateheston.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calibrateheston.cpp; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* calibrateheston */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = calibrateheston; sourceTree = BUILT_PRODUCTS_DIR; };
+		C854412712DA691800E77EDB /* load_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_data.cpp; sourceTree = "<group>"; };
+		C854412F12DA69A000E77EDB /* load_data */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = load_data; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88FDF6812554C7F00AB4703 /* kiko.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kiko.c; sourceTree = "<group>"; };
+		C8938659124EC33B00FBB1D7 /* gcomplex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gcomplex.h; sourceTree = "<group>"; };
+		C893865A124EC33B00FBB1D7 /* gcomplex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gcomplex.cpp; sourceTree = "<group>"; };
+		C89C0AFC125474AE00BEDF2C /* vanilla */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = vanilla; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89C0B1F125475E700BEDF2C /* vanilla.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vanilla.cpp; sourceTree = "<group>"; };
+		C89C0B211254763F00BEDF2C /* cndev.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cndev.cpp; sourceTree = "<group>"; };
+		C89C0B221254763F00BEDF2C /* cndev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cndev.h; sourceTree = "<group>"; };
+		C89C0B231254763F00BEDF2C /* ranmar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ranmar.cpp; sourceTree = "<group>"; };
+		C89C0B241254763F00BEDF2C /* ranmar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ranmar.h; sourceTree = "<group>"; };
+		C89C18831252B06300947012 /* kiko */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kiko; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B29BD512574EB700227360 /* testga */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testga; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B29BDC12574EEE00227360 /* testga.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testga.cpp; sourceTree = "<group>"; };
+		C8B29C48125760C500227360 /* heston.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heston.h; sourceTree = "<group>"; };
+		C8B29C49125760C500227360 /* heston.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heston.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C854412D12DA69A000E77EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89C0AFA125474AE00BEDF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89C18811252B06300947012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B29BD312574EB700227360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* bs-lewis */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = "bs-lewis";
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C854412712DA691800E77EDB /* load_data.cpp */,
+				C8B29C48125760C500227360 /* heston.h */,
+				C8B29C49125760C500227360 /* heston.cpp */,
+				C88FDF6812554C7F00AB4703 /* kiko.c */,
+				C89C0B211254763F00BEDF2C /* cndev.cpp */,
+				C89C0B221254763F00BEDF2C /* cndev.h */,
+				C89C0B231254763F00BEDF2C /* ranmar.cpp */,
+				C89C0B241254763F00BEDF2C /* ranmar.h */,
+				C8938659124EC33B00FBB1D7 /* gcomplex.h */,
+				C893865A124EC33B00FBB1D7 /* gcomplex.cpp */,
+				08FB7796FE84155DC02AAC07 /* calibrateheston.cpp */,
+				C89C0B1F125475E700BEDF2C /* vanilla.cpp */,
+				C8B29BDC12574EEE00227360 /* testga.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* calibrateheston */,
+				C89C18831252B06300947012 /* kiko */,
+				C89C0AFC125474AE00BEDF2C /* vanilla */,
+				C8B29BD512574EB700227360 /* testga */,
+				C854412F12DA69A000E77EDB /* load_data */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* calibrateheston */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "calibrateheston" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calibrateheston;
+			productInstallPath = "$(HOME)/bin";
+			productName = "bs-lewis";
+			productReference = 8DD76FB20486AB0100D96B5E /* calibrateheston */;
+			productType = "com.apple.product-type.tool";
+		};
+		C854412E12DA69A000E77EDB /* load_data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C854413312DA69BE00E77EDB /* Build configuration list for PBXNativeTarget "load_data" */;
+			buildPhases = (
+				C854412C12DA69A000E77EDB /* Sources */,
+				C854412D12DA69A000E77EDB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = load_data;
+			productName = load_data;
+			productReference = C854412F12DA69A000E77EDB /* load_data */;
+			productType = "com.apple.product-type.tool";
+		};
+		C89C0AFB125474AE00BEDF2C /* vanilla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C89C0B00125474CD00BEDF2C /* Build configuration list for PBXNativeTarget "vanilla" */;
+			buildPhases = (
+				C89C0AF9125474AE00BEDF2C /* Sources */,
+				C89C0AFA125474AE00BEDF2C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vanilla;
+			productName = vanilla;
+			productReference = C89C0AFC125474AE00BEDF2C /* vanilla */;
+			productType = "com.apple.product-type.tool";
+		};
+		C89C18821252B06300947012 /* kiko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C89C18871252B08200947012 /* Build configuration list for PBXNativeTarget "kiko" */;
+			buildPhases = (
+				C89C18801252B06300947012 /* Sources */,
+				C89C18811252B06300947012 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kiko;
+			productName = kiko;
+			productReference = C89C18831252B06300947012 /* kiko */;
+			productType = "com.apple.product-type.tool";
+		};
+		C8B29BD412574EB700227360 /* testga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B29BDB12574EE900227360 /* Build configuration list for PBXNativeTarget "testga" */;
+			buildPhases = (
+				C8B29BD212574EB700227360 /* Sources */,
+				C8B29BD312574EB700227360 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testga;
+			productName = testga;
+			productReference = C8B29BD512574EB700227360 /* testga */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "bs-lewis" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* bs-lewis */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* calibrateheston */,
+				C89C18821252B06300947012 /* kiko */,
+				C89C0AFB125474AE00BEDF2C /* vanilla */,
+				C8B29BD412574EB700227360 /* testga */,
+				C854412E12DA69A000E77EDB /* load_data */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88FDFAA12555DAA00AB4703 /* cndev.cpp in Sources */,
+				8DD76FAC0486AB0100D96B5E /* calibrateheston.cpp in Sources */,
+				C893865B124EC33B00FBB1D7 /* gcomplex.cpp in Sources */,
+				C8B29C4A125760C500227360 /* heston.cpp in Sources */,
+				C854412912DA691800E77EDB /* load_data.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C854412C12DA69A000E77EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C854413612DA6A1C00E77EDB /* load_data.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89C0AF9125474AE00BEDF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B29C6512577F7900227360 /* gcomplex.cpp in Sources */,
+				C89C0B20125475E700BEDF2C /* vanilla.cpp in Sources */,
+				C89C0B251254763F00BEDF2C /* cndev.cpp in Sources */,
+				C89C0B261254763F00BEDF2C /* ranmar.cpp in Sources */,
+				C8B29C4B125760C500227360 /* heston.cpp in Sources */,
+				C854412812DA691800E77EDB /* load_data.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89C18801252B06300947012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88FDF6A12554CDD00AB4703 /* cndev.cpp in Sources */,
+				C88FDF6B12554CDD00AB4703 /* ranmar.cpp in Sources */,
+				C88FDF6912554C7F00AB4703 /* kiko.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B29BD212574EB700227360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B29BDD12574EEE00227360 /* testga.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = calibrateheston;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "bs-lewis";
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lgsl",
+					"-lgslcblas",
+					"-lm",
+					"-lga",
+				);
+				PREBINDING = NO;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		C854413112DA69A000E77EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = load_data;
+			};
+			name = Debug;
+		};
+		C854413212DA69A000E77EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = load_data;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C89C0AFE125474AF00BEDF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = vanilla;
+			};
+			name = Debug;
+		};
+		C89C0AFF125474AF00BEDF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = vanilla;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C89C18851252B06400947012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = kiko;
+			};
+			name = Debug;
+		};
+		C89C18861252B06400947012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = kiko;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C8B29BD712574EB700227360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = testga;
+			};
+			name = Debug;
+		};
+		C8B29BD812574EB700227360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = testga;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "calibrateheston" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "bs-lewis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C854413312DA69BE00E77EDB /* Build configuration list for PBXNativeTarget "load_data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C854413112DA69A000E77EDB /* Debug */,
+				C854413212DA69A000E77EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C89C0B00125474CD00BEDF2C /* Build configuration list for PBXNativeTarget "vanilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89C0AFE125474AF00BEDF2C /* Debug */,
+				C89C0AFF125474AF00BEDF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C89C18871252B08200947012 /* Build configuration list for PBXNativeTarget "kiko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89C18851252B06400947012 /* Debug */,
+				C89C18861252B06400947012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B29BDB12574EE900227360 /* Build configuration list for PBXNativeTarget "testga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8B29BD712574EB700227360 /* Debug */,
+				C8B29BD812574EB700227360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
