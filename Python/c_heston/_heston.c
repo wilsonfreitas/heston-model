@@ -36,10 +36,9 @@ call(PyObject *self, PyObject *args)
 	double eta;
 	double rho;
 	
-	if (!PyArg_ParseTuple(args, "dddddddddd", &F, &K, &tau, &r, &q, &v, &vbar, &lambda, &eta, &rho))
+	if (!PyArg_ParseTuple(args, "dddddddddd", &S, &K, &tau, &r, &q, &v, &vbar, &lambda, &eta, &rho))
 		return NULL;  
-	
-	double h = heston_call(F, K, tau, v, vbar, lambda, eta, rho);
+	double h = heston_call(S, K, tau, r, q, v, vbar, lambda, eta, rho);
 	return PyFloat_FromDouble(h);
 }
 
