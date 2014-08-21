@@ -1,3 +1,10 @@
 *.pyc
 *.so
 *.o
+.ipynb*
+Python/bin/*
+Python/lib/*
+Python/include/*
+Python/share/*
+Python/man/*
+.Python
