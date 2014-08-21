@@ -5,7 +5,7 @@ from numpy import meshgrid, sqrt, diff
 from scipy import inf, pi, exp, linspace, zeros, real, imag, array, log
 from scipy.stats import norm
 from scipy.integrate import quad
-from bsm import bsmprice
+# from bsm import bsmprice
 
 
 def heston_phi(k, tau, *parms):
